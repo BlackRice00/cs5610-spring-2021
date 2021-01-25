@@ -1,10 +1,8 @@
-/* .color-red {
-    color:blue;
-} */
+/*
 
 .container {
     width: 100%;
-    /*keep everything in the center*/
+    /*keep everything in the center
     margin: auto;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -12,7 +10,7 @@
 
 .card.signin-card {
      padding: 20px 40px 20px;
-     /*background-color: #99CCFF;*/
+     /*background-color: #99CCFF;
      background-image: linear-gradient(to bottom right, #FFCCCC, #CCCCFF, #99CCFF, #ffffff);
      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
      -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
@@ -37,6 +35,6 @@ button.btn-primary.btn-block.wbdv-login {
     color: #ffffff;
     background-color: #3c82fa;
     width: 100%;
-}
+} */
 
 
