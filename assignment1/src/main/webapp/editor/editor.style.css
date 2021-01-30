@@ -1,0 +1,14 @@
+.navbar.sticky-top.navbar-dark.bg-dark {
+    color: white;
+}
+
+.close {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.col-4.side-modules {
+    display: contents;
+}
+
+
