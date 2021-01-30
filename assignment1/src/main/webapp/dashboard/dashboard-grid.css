@@ -1,20 +1,4 @@
-.wbdv-sticky-top {
-    color: white;
-    position: fixed;
-    width: 100%;
-    background-color: #3366ff;
-    z-index: 1;
-}
 
-.row.topbar {
-    padding:1%;
-    background-color: #ccd9ff;
-}
-
-.row.yesterday {
-    padding:1%;
-    background-color: #ccd9ff;
-}
 
 .navbar.navbar-dark.bg-primary {
     color: white;
@@ -23,4 +7,21 @@
 .navbar.navbar-light.bg-light {
     padding-inline: 10%;
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    head{
+        font-size: 30px;
+    }
+    body {
+        font-size: 20px;
+    }
+
+    .col-3 {
+        display: none;
+    }
+
+    .col-1 {
+        position: float-right;
+    }
 }
