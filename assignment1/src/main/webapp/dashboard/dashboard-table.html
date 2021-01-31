@@ -4,6 +4,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="./dashboard-table.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -12,25 +13,27 @@
     <div class="col-1">
         <i class="fa fa-bars fa-2x"></i>
     </div>
-    <div class="col-2">
+    <div class="col-2 dashboard">
         <h4>Dashboard</h4>
     </div>
     <div class="col-8">
         <input class="form-control" placeholder="New Course Title"/>
     </div>
     <div class="col-1">
-        <i class="fa fa-plus fa-2x"></i>
+        <a href="#" class="add-btn">
+            <i class="fa fa-plus fa-2x"></i>
+        </a>
     </div>
 </nav>
 <nav class="navbar sticky-top navbar-light bg-light">
-    <div class="col-5">
+    <div class="col-3">
         Title
     </div>
-    <div class="col-3">
+    <div class="col-3 owner-col">
         Owned by
         <i class="fa fa-sort-up"></i>
     </div>
-    <div class="col-3">
+    <div class="col-5 modified-col">
         Last modified
     </div>
     <div class="col-1">
@@ -41,17 +44,7 @@
 <br>
 <br>
 <div class="container">
-    <h1>Dashboard</h1>
-
     <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>Title</th>
-            <th>Owned by</th>
-            <th>Last modified</th>
-            <th>&nbsp;</th>
-        </tr>
-        </thead>
         <tbody>
         <tr>
             <td>
@@ -60,10 +53,10 @@
                     CS5610
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/21/2021
             </td>
             <td>
@@ -77,10 +70,10 @@
                     CS3200
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/23/2021
             </td>
             <td>
@@ -94,10 +87,10 @@
                     CS4550
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/22/2021
             </td>
             <td>
@@ -118,10 +111,10 @@
                     CS5610
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/21/2021
             </td>
             <td>
@@ -135,10 +128,10 @@
                     CS3200
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/23/2021
             </td>
             <td>
@@ -152,10 +145,10 @@
                     CS4550
                 </a>
             </td>
-            <td>
+            <td class="owner-col">
                 me
             </td>
-            <td>
+            <td class="modified-col">
                 1/22/2021
             </td>
             <td>
@@ -164,6 +157,11 @@
         </tr>
         </tbody>
     </table>
+    <div class="fixed-bottom col">
+        <a href="#" class="add-btn2">
+            <i class="fa fa-plus fa-2x"></i>
+        </a>
+    </div>
 
 </div>
 </body>
