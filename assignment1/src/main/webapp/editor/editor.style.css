@@ -1,3 +1,8 @@
+.top-nav {
+    background-color: grey;
+    padding-bottom: 2px;
+}
+
 .navbar.sticky-top.navbar-dark.bg-dark {
     color: white;
 }
@@ -7,13 +12,26 @@
     padding-bottom: 5px;
 }
 
-.col-4.side-modules {
-    display: contents;
-}
-
 .module-list {
      margin-top: 20px;
      margin-bottom: 10px;
+}
+
+.sidebar {
+    height: 700px;
+}
+
+.topic-list-item {
+ list-style: none;
+}
+
+.topic-list-item-btn {
+    margin: 10px;
+}
+
+.topic-add-btn {
+    margin: 5px;
+    color: black;
 }
 
 
