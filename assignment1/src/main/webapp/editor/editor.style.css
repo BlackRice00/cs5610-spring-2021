@@ -7,6 +7,7 @@
     color: white;
 }
 
+
 .close {
     color: white;
     padding-bottom: 5px;
@@ -18,7 +19,7 @@
 }
 
 .sidebar {
-    height: 700px;
+    height: 1000px;
 }
 
 .topic-list-item {
